@@ -1,0 +1,186 @@
+Test run 1:
+
+WELCOME TO HEXAGON GAME 
+This game is played against and AI (player 1) which follows certain pattern to maximize it's winning chances. Good Luck!
+Player 1 is AI, You are Player 2, choose 2 to go first:
+1
+Graph:
+Nodes
+0 1 2 3 4 5 
+- - - - - - 
+- - - - - - 
+- - - - - - 
+- - - - - - 
+- - - - - - 
+- - - - - - 
+AI's turn:
+Graph:
+Nodes
+0 1 2 3 4 5 
+- s - - - - 
+s - - - - - 
+- - - - - - 
+- - - - - - 
+- - - - - - 
+- - - - - - 
+Your turn (enter two vertex indices separated by a space):
+2 3
+Graph:
+Nodes
+0 1 2 3 4 5 
+- s - - - - 
+s - - - - - 
+- - - d - - 
+- - d - - - 
+- - - - - - 
+- - - - - - 
+AI's turn:
+Graph:
+Nodes
+0 1 2 3 4 5 
+- s s - - - 
+s - - - - - 
+s - - d - - 
+- - d - - - 
+- - - - - - 
+- - - - - - 
+Your turn (enter two vertex indices separated by a space):
+3 4
+Graph:
+Nodes
+0 1 2 3 4 5 
+- s s - - - 
+s - - - - - 
+s - - d - - 
+- - d - d - 
+- - - d - - 
+- - - - - - 
+AI's turn:
+Graph:
+Nodes
+0 1 2 3 4 5 
+- s s s - - 
+s - - - - - 
+s - - d - - 
+s - d - d - 
+- - - d - - 
+- - - - - - 
+Your turn (enter two vertex indices separated by a space):
+2 4
+Triangle found! 
+edge: 2-4: d
+edge: 3-2: d
+edge: 3-4: d
+You lost the game!
+Graph:
+Nodes
+0 1 2 3 4 5 
+- s s s - - 
+s - - - - - 
+s - - d d - 
+s - d - d - 
+- - d d - - 
+- - - - - - 
+Game over, thanks for playing
+
+Test run 2:
+
+This game is played against and AI (player 1) which follows certain pattern to maximize it's winning chances. Good Luck!
+Player 1 is AI, You are Player 2, choose 2 to go first:
+2
+Graph:
+Nodes
+0 1 2 3 4 5 
+- - - - - - 
+- - - - - - 
+- - - - - - 
+- - - - - - 
+- - - - - - 
+- - - - - - 
+Your turn (enter two vertex indices separated by a space):
+2 3
+Graph:
+Nodes
+0 1 2 3 4 5 
+- - - - - - 
+- - - - - - 
+- - - d - - 
+- - d - - - 
+- - - - - - 
+- - - - - - 
+AI's turn:
+Graph:
+Nodes
+0 1 2 3 4 5 
+- s - - - - 
+s - - - - - 
+- - - d - - 
+- - d - - - 
+- - - - - - 
+- - - - - - 
+Your turn (enter two vertex indices separated by a space):
+3 2
+cannot overwrite edge, please try again
+2 4
+Graph:
+Nodes
+0 1 2 3 4 5 
+- s - - - - 
+s - - - - - 
+- - - d d - 
+- - d - - - 
+- - d - - - 
+- - - - - - 
+AI's turn:
+Graph:
+Nodes
+0 1 2 3 4 5 
+- s s - - - 
+s - - - - - 
+s - - d d - 
+- - d - - - 
+- - d - - - 
+- - - - - - 
+Your turn (enter two vertex indices separated by a space):
+1 0
+cannot overwrite edge, please try again
+3 5
+Graph:
+Nodes
+0 1 2 3 4 5 
+- s s - - - 
+s - - - - - 
+s - - d d - 
+- - d - - d 
+- - d - - - 
+- - - d - - 
+AI's turn:
+Graph:
+Nodes
+0 1 2 3 4 5 
+- s s s - - 
+s - - - - - 
+s - - d d - 
+s - d - - d 
+- - d - - - 
+- - - d - - 
+Your turn (enter two vertex indices separated by a space):
+3 5
+cannot overwrite edge, please try again
+2 5
+Triangle found! 
+edge: 2-5: d
+edge: 3-2: d
+edge: 3-5: d
+You lost the game!
+Graph:
+Nodes
+0 1 2 3 4 5 
+- s s s - - 
+s - - - - - 
+s - - d d d 
+s - d - - d 
+- - d - - - 
+- - d d - - 
+Game over, thanks for playing
+
